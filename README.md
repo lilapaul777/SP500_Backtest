@@ -15,7 +15,9 @@ Compares total return and annualized Sharpe ratio (assuming a risk-free rate of 
 
 Buy and hold wins over this period.
 
-MetricBuy & HoldMoving Average StrategyGrowth of $1~$4.00~$2.50Total Return~3.00 (300%)~1.55 (155%)Sharpe RatioHigherLower
+Tracking the growth of one dollar, the Buy & Hold Strategy grows 1 dollar to approximately 4 dollars whereas the Moving Average strategy only grows to about 2.5 dollars.
+
+The total return for the Buy & Hold Strategy is larger than that of the Moving Average Strategy, 3.00 vs 1.55. The Sharpe Ratio, the measure of return relative to risk, is also higher for the Buy & Hold Strategy meaning that this strategy generates higher risk-adjusted returns.
 
 The crossover strategy loses on both raw and risk-adjusted returns. Trading costs and taxes aren't even included here, and since the strategy trades while buy and hold doesn't, adding them would only make it look worse.
 
