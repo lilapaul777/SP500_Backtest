@@ -4,9 +4,9 @@ This notebook tests a popular trading strategy, the 50/200 day moving average cr
 
 **What it does**
 
-Downloads roughly 10 years of daily SPY prices from Yahoo Finance with yfinance
+Downloads 10 years of daily SPY prices from Yahoo Finance with yfinance
 Calculates the 50-day and 200-day moving averages and plots them against price
-Sets up the strategy: hold the S&P 500 when the 50-day MA is above the 200-day MA, move to cash when it drops below. Positions are shifted by one day so the strategy only uses information it would have actually had at the time.
+Sets up the strategy: hold the S&P 500 when the 50-day MA is above the 200-day MA, sell and move to cash when it drops below. Positions are shifted by one day to eliminate look-ahead bias.
 Runs the backtest and tracks the growth of $1 for both the strategy and buy and hold
 Compares total return and annualized Sharpe ratio (assuming a risk-free rate of 0) for both
 
@@ -34,10 +34,6 @@ pandas
 numpy
 yfinance
 matplotlib
-
-Install with:
-
-bashpip install pandas numpy yfinance matplotlib
 
 **Usage**
 
